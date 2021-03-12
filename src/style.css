@@ -1,23 +1,25 @@
 .logo{
     margin-top: 0px;
     margin-left: 0px;
-    background-color: cornflowerblue;
-    border: 1px solid black;
+    background-color:cadetblue;
+    height:500px;
+    background-image:"./logo.jpg";
 }
 
 .image{
     float:right;
     width: 500px;
-    height: 450px;
+    height: 498px;
     margin-right: 0px;
-    margin-top: -190px;
+    margin-top: -40px;
     border-radius: 20px;
 }
 .footer{
     vertical-align: bottom;
     /* margin-bottom: -100px; */
-    margin-top: 220px;
+    margin-top: 0px;
     /* align-items: flex-end; */
     align-content: space-between;
     align-items:flex-end ;
 }
+
