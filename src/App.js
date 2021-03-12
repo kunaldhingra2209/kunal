@@ -26,7 +26,7 @@ export default function Header() {
   return(
     <>
     <Headers  />
-    <Home  />
+    
     <Footer />
 
     </>
