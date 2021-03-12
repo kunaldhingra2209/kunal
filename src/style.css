@@ -1,44 +1,21 @@
 .logo{
-<<<<<<< HEAD
     margin-top: 150px;
     margin-left: 120px;
     background-color: cornflowerblue;
     border: 1px solid black;
-=======
-    margin-top: 0px;
-    margin-left: 0px;
-    background-color:cadetblue;
-    height:500px;
-    background-image:"./logo.jpg";
->>>>>>> 569904992997e41d2b567f50d43738f7fb99c697
 }
 
 .image{
     float:right;
     width: 500px;
-<<<<<<< HEAD
     height: 448px;
     margin-right: 0px;
     margin-top: -192px;
-=======
-    height: 498px;
-    margin-right: 0px;
-    margin-top: -40px;
->>>>>>> 569904992997e41d2b567f50d43738f7fb99c697
     border-radius: 20px;
 }
 /* .footer{
     vertical-align: bottom; */
     /* margin-bottom: -100px; */
-<<<<<<< HEAD
     
     /* align-items: flex-end;
 } */
-=======
-    margin-top: 0px;
-    /* align-items: flex-end; */
-    align-content: space-between;
-    align-items:flex-end ;
-}
-
->>>>>>> 569904992997e41d2b567f50d43738f7fb99c697
