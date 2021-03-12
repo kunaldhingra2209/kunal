@@ -8,6 +8,7 @@ import CardHeader from '@material-ui/core/CardHeader';
 import Typography from '@material-ui/core/Typography';
 import { Avatar, IconButton } from '@material-ui/core';
 import ShareIcon from '@material-ui/icons/Share';
+import 'tachyons'
 
 const useStyles = makeStyles({
   
@@ -30,7 +31,7 @@ const CoffeCard= (props)=> {
   const {avatarSrc,title,subtitle}=props
 
   return (
-    <Card >
+    <Card className="grow" >
         <CardHeader
         avatar={
           <Avatar src={avatarSrc} />
