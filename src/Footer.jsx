@@ -1,4 +1,4 @@
-import { AppBar, Toolbar,Typography,Button } from '@material-ui/core';
+import { AppBar, Toolbar,Typography,Button,Grid, } from '@material-ui/core';
 import {Home} from '@material-ui/icons'
 import { makeStyles } from '@material-ui/styles';
 import React from 'react'
@@ -12,14 +12,21 @@ const useStyles = makeStyles(()=> ({
 const Header =()=>{
     const classes=useStyles();
     return(
-         <AppBar  color="secondary" position="bottom" className="footer" align="bottom">
+         <AppBar  color="secondary" position="relative" className="footer" align="bottom">
              <Toolbar>
                  <div>
                  {/* <Typography className={classes.typographyStyles}>My Hotel</Typography> */}
-                 <Button className="footer"  >Home</Button>
-                 <Button  >Services</Button>
-                 <Button align="centre" >About</Button>
-                 <Button align="right" >Contact</Button>
+                 <Grid container spacing={10} direction="row">
+                    <Grid item  ><Button  >Home</Button></Grid>
+                    <Grid item  ><Button style={{align:"center"}} >Services</Button></Grid>
+                    <Grid item ><Button align="centre" >About</Button></Grid>
+                    <Grid item ><Button align="right" >Contact</Button></Grid>
+                 </Grid>
+                 
+                 
+                 
+                 
+                 
                  </div>
              </Toolbar>
          </AppBar>

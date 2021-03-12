@@ -1,6 +1,6 @@
 .logo{
-    margin-top: 0px;
-    margin-left: 0px;
+    margin-top: 150px;
+    margin-left: 120px;
     background-color: cornflowerblue;
     border: 1px solid black;
 }
@@ -8,16 +8,14 @@
 .image{
     float:right;
     width: 500px;
-    height: 450px;
+    height: 448px;
     margin-right: 0px;
-    margin-top: -190px;
+    margin-top: -192px;
     border-radius: 20px;
 }
-.footer{
-    vertical-align: bottom;
+/* .footer{
+    vertical-align: bottom; */
     /* margin-bottom: -100px; */
-    margin-top: 220px;
-    /* align-items: flex-end; */
-    align-content: space-between;
-    align-items:flex-end ;
-}
+    
+    /* align-items: flex-end;
+} */
